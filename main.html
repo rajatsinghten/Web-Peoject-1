@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+
+    <title> She Creates</title>
+</head>
+
+<body>
+    <header class="bg-light">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="/">
+                    <img src="img/logo.png" alt="Logo" width="140">
+                    <h4>SHE CREATES</h4>
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="/main.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/products.html">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 d-flex align-items-center justify-content-center bg-light text-dark p-5 banner-text">
+                <div>
+                    <h1>Crafted with Grace, <br>
+                        Celebrating Women's Artistry.</h1>
+                    <br>
+                    <a href="products.html" class="btn btn-light btn-lg btn-box btn-yellow">SHOP NOW &#10142;</a>
+                </div>
+            </div>
+            
+            
+            
+            
+            
+            <div class="col-md-6 banner-image"></div>
+        </div>
+    </section>
+    
+    
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Featured Products</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/product-1.jpg" class="card-img-top" alt="Product">
+                    <div class="card-body">
+                        <h5 class="card-title">HandMade Dolls</h5>
+                        <p class="card-text">₹299.00</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="HandMade Dolls">
+                            <input type="hidden" name="price" value="299.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/product-2.jpg" class="card-img-top" alt="Product">
+                    <div class="card-body">
+                        <h5 class="card-title">HandMade Dolls</h5>
+                        <p class="card-text">₹149.00</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="Lamps">
+                            <input type="hidden" name="price" value="149.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/product-3.jpg" class="card-img-top" alt="Product">
+                    <div class="card-body">
+                        <h5 class="card-title">Embroidery</h5>
+                        <p class="card-text">₹45.00</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="Embroidery">
+                            <input type="hidden" name="price" value="₹45.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/product-4.jpg" class="card-img-top" alt="Product">
+                    <div class="card-body">
+                        <h5 class="card-title">Toys</h5>
+                        <p class="card-text">₹199.00</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="Toys">
+                            <input type="hidden" name="price" value="₹199.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+  
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-6">
+                <img src="img/new-product.jpg" class="img-fluid" alt="New Product">
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+                <div>
+                    <p>Special Product </p>
+                    <h1>Bamboo Works</h1>
+                    <small>Uniquely Designed!</small><br>
+
+                    <br>
+                    <form action="cart.html" method="GET">
+                        <input type="hidden" name="product" value="P Name">
+                        <input type="hidden" name="price" value="199.00">
+                        <input type="hidden" name="quantity" value="1">
+                        <input type="submit" class="btn btn-warning" value="Add to Cart">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+    <section id="contact" class="container my-5">
+        <div class="row">
+            <div class="col-12 mb-4">
+                <h2 class="text-center">Contact Us</h2>
+            </div>
+            <div class="col-md-8 mx-auto border rounded p-4 shadow-sm">
+                
+                <form>
+                    <div class="mb-3">
+                        <label for="contactName" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="contactName" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="contactEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="contactEmail" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="contactMessage" class="form-label">Message</label>
+                        <textarea class="form-control" id="contactMessage" rows="3" placeholder="Your Feedback"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+   <!--- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="img/logo.png" alt="Logo" class="mb-2" width="100">
+                    <p>Let's Step UP!</p>
+                </div>
+                <div class="col-md-3">
+                    <h3>Navigation</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="/" class="text-decoration-none text-light">Home</a></li>
+                        <li><a href="products.html" class="text-decoration-none text-light">Products</a></li>
+                        <li><a href="#contact" class="text-decoration-none text-light">Contact</a></li>
+                    </ul>
+                </div>
+               
+                <div class="col-md-3">
+                    <h3>Follow Us</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-light">Facebook</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">Twitter</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">Instagram</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">&copy; Copyright 2023 - Our Store</div>
+        </div>
+    </footer>
+</body>
+</html>
